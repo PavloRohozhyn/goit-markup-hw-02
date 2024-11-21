@@ -17,8 +17,8 @@
 
 body {
     font-family: var(--font-family);
-    color: #E5E5E5;
-    /* background-color: ; */
+    color: var(--slate);
+    background-color: #FFFFFF;
 }
 
 ul li {
@@ -84,11 +84,6 @@ a {
 }
 
 .section-hero-btn {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
 }
 
@@ -151,7 +146,6 @@ a {
 }
 
 .section-team-item {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
 }
 
@@ -210,6 +204,10 @@ a {
 
 
 /* #region Footer */
+.footer {
+    background-color: var(--navy-blue);
+}
+
 .footer-desc {
     font-family: var(--font-family);
     font-weight: 400;
