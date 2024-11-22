@@ -194,6 +194,7 @@ a {
 
 /* #endregion */
 
+
 /* #region Portfolio */
 .section-portfolio-title {
     font-family: var(--font-family);
@@ -230,6 +231,10 @@ a {
 /* #region Footer */
 .footer {
     background-color: var(--navy-blue);
+}
+
+.footer-logo-second {
+    color: var(--cloud);
 }
 
 .footer-desc {
