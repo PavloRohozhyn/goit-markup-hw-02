@@ -51,7 +51,7 @@ a {
     color: var(--navy-blue);
 }
 
-.header-nav-item {
+.header-nav-link {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -60,7 +60,17 @@ a {
     color: var(--navy-blue);
 }
 
-.header-address-item {
+.heder-nav-link:hover,
+.header-nav-link.focus,
+.header-nav-link.active {
+    color: var(--ocean);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-link {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -69,10 +79,20 @@ a {
     color: var(--slate);
 }
 
+.header-address-link:hover,
+.header-address-link.focus,
+.header-address-link.active {
+    color: var(--ocean);
+}
+
 /* #endregion */
 
 
 /* #region Hero*/
+.section-hero {
+    background-color: var(--navy-blue);
+}
+
 .section-hero-title {
     font-family: var(--font-family);
     font-weight: 700;
@@ -85,9 +105,6 @@ a {
 
 .section-hero-btn {
     background: var(--iris);
-}
-
-.section-hero-btntext {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -96,17 +113,18 @@ a {
     color: var(--white);
 }
 
+.section-hero-btn {
+    background-color: var(--ocean);
+    cursor: pointer;
+}
+
 /* #endregion */
 
 
 /* #region Benefits*/
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip: rect(0, 0, 0, 0);
     clip-path: inset(50%);
@@ -135,6 +153,10 @@ a {
 
 
 /* #region Team */
+.section-team {
+    background-color: var(--cloud);
+}
+
 .section-team-title {
     font-family: var(--font-family);
     font-weight: 700;
@@ -142,6 +164,7 @@ a {
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--navy-blue);
 }
 
@@ -179,6 +202,7 @@ a {
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--navy-blue);
 }
 
