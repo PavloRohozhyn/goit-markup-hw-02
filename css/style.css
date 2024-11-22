@@ -60,7 +60,7 @@ a {
     color: var(--navy-blue);
 }
 
-.heder-nav-link:hover,
+.header-nav-link:hover,
 .header-nav-link.focus,
 .header-nav-link.active {
     color: var(--ocean);
@@ -111,10 +111,7 @@ a {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: var(--white);
-}
-
-.section-hero-btn {
-    background-color: var(--ocean);
+    background-color: var(--iris);
     cursor: pointer;
 }
 
